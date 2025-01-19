@@ -1,0 +1,17 @@
+1a: git branch branca00
+1b: git checkout branca00
+1c: git branch/git status
+
+5: git checkout main, git log main, git log branca00
+6: l'ultima linea afegida no la puc veure perque es una versio anterior de l'arxiu, la que hem cambiat es troba a branca00
+7: git checkout branca00, puc veure l'ultima linea perque es la versio mès renovada de l'arxiu
+10b: git merge branca00
+12:Només es va fer un push de la branca main, ja que explícitament es va indicar en el comandament git push origin main.
+    Les branques a Git només s'actualitzen al dipòsit remot si es fa un push de cadascuna d'elles. 
+    En aquest cas, no he fet un push per a branca00, per la qual cosa no es va reflectir al remot.
+12a:git push origin main
+12b:
+12c: git branch -r
+
+14a: git push origin branca01
+14c: git rev-list --count main..branca01
