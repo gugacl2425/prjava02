@@ -32,3 +32,4 @@ public class Prjava02 {
         }  
     }
 }
+System.out.println("Afegint més codi des de la branca00 del projecte prjava02");
